@@ -1,7 +1,6 @@
 #skills{
     overflow:hidden;
     width: 100vw;
-    max-width: 65rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,31 +18,42 @@
 .skillBars {
     margin: 1.5rem;
     width: 100vw;
-    max-width: 80%;
     text-align: center;
-    display: flex;
+    display: inline-flex;
+}
+.skillGroup{
+    margin: auto;
 }
 .skillBars button{
     background:white;
     color: black;
     border:none;
-    display: flex;
+    display: column;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem; 
     font-size: 24px;
+    height: 72px;
     width: 150px;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 .skillBars button:hover{
     background:goldenrod;
     color: black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,024),0 17px 50px 0 rgba(0,0,0,0.19);
     border:none;
-    display: flex;
+    display: table-column;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem; 
     font-size: 24px;
+}
+.bg{
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    object-fit: cover
 }

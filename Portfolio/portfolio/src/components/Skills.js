@@ -6,6 +6,8 @@ const Skills = ()=>{
         <section id='skills'>
             <span className='skillTitle'>Programming Languages</span>
             <div className="skillBars">
+            <img src="Coding.png" alt="" className='bg'></img>
+            <div className ="skillGroup">
                 <button className='javaBtn'>Java</button>
                 <button className='pythonBtn'>Python</button>
                 <button className='HTMLBtn'>HTML</button>
@@ -15,7 +17,9 @@ const Skills = ()=>{
                 <button className='SQLBtn'>SQL</button>
                 <button className='c#Btn'>C#</button>
                 <button className='gitBtn'>GIT</button>
+                </div>
             </div>
+          
         </section>
     );
 }
