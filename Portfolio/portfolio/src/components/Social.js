@@ -1,13 +1,16 @@
 import React from 'react';
 import './Social.css';
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 const Social = () => {
     return (
-        <div className= "socialBar">
+        <nav className= "socialBar">
             <a href='https://www.linkedin.com/in/alexpham00/'>
                 <FaLinkedin icon = {FaLinkedin}/>
             </a>
-        </div>
+            <a href= 'https://github.com/apham5186'>
+                <FaGithubSquare icon = {FaGithubSquare}/>
+            </a>
+        </nav>
     )
 }
 export default Social

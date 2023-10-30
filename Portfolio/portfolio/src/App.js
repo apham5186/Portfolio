@@ -23,6 +23,8 @@ export default function App() {
       <Intro />
       <About />
       <Skills/>
+      <Projects/>
+      <Contact/>
     </main>
   );
 }

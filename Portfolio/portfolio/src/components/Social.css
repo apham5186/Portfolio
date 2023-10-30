@@ -1,0 +1,19 @@
+.socialBar {
+    height: 25rem;
+    width: 5vw;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+    left: 0;
+    z-index: 3;
+}
+.socialBar a{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.socialBar a:hover{
+    color: goldenrod;
+}

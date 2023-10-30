@@ -1,7 +1,6 @@
 .navbar {
-    height: 5rem;
+    height: 15vh;
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -19,7 +18,11 @@
 }
 .desktopMenuListItem{
     margin: 1rem;
+    font-size: 24px;
     cursor: pointer;
+}
+.desktopMenuListItem:hover{
+    color:goldenrod
 }
 .desktopMenuImg{
     object-fit: cover;
@@ -37,4 +40,7 @@
     padding: 0 1rem;
     border-radius: 2rem;
     cursor: pointer;
+}
+.desktopMenuBtn:hover{
+    background: goldenrod;
 }
