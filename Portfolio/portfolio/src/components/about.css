@@ -1,7 +1,7 @@
 #about{
     height: 100vh;
     width: 100vw;
-    max-width: 100rem;
+    max-width: 90vw;
     margin: 0 auto;
     overflow: hidden;
     position: relative
@@ -48,7 +48,7 @@ p{
     margin: auto;
 }
 .aboutContentBottom img{
-    width: 30%;
+    width: 25%;
     height: 100;
     object-fit: cover;
     margin-right: 2%;
