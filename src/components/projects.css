@@ -1,5 +1,5 @@
 #projects{
-    overflow:hidden;
+    overflow:visible;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -21,37 +21,11 @@
     align-items: center;
 }
 .projectContent div{
-    margin-left: 5%;
+    margin:auto;
 }
-.project1{
-    background-color: white;
-    border-radius: 4rem;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,024),0 17px 50px 0 rgba(0,0,0,0.19);
-    color: black;
-    height: 70vh;
-    width: 20vw;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.project1Content{
-    margin-top: 0;
-    position:sticky;
-    bottom: 1000px;
-}
-.project1Img{
+.projectImg{
     object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-.project1Title{
-    position: relative;
-    bottom: 50px;
-    font-size: 2rem;
-}
-.project1Para{
-    position: relative;
-    bottom:50px;
-    font-size: 1rem;
+    width: 70%;
+    height: 70%;
+    margin: auto;
 }

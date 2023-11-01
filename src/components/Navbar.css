@@ -1,5 +1,5 @@
 .navbar {
-    height: 15vh;
+    height: 1vh;
     width: 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -11,6 +11,7 @@
     z-index: 3;
 }
 
+
 .logo{
     object-fit: cover;
     height: 10rem;
@@ -20,6 +21,7 @@
 .desktopMenuListItem{
     margin: 1rem;
     font-size: 24px;
+    color: white;
     cursor: pointer;
 }
 .desktopMenuListItem:hover{

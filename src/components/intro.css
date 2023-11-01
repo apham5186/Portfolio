@@ -1,15 +1,13 @@
 #intro{
-    height: calc(100h-4rem);
+    height: 100vh;
     width: 100vw;
-    max-width: 100rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative
 }
 
 .introContent{
-    height:100vh;
-    width: 100vw;
+  margin:auto;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;

@@ -12,11 +12,8 @@
     height:100vh;
     width: 100vw;
     padding: 2rem;
-}
-.aboutText{
     font-size: 2rem;
     font-weight: 300;
-   
 }
 .aboutContentLeft{
     height:50vh;
@@ -40,7 +37,7 @@ p{
 }
 .aboutContentBottom{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     height: 50vh;
     width: 100vw;
     display: inline-flex;
