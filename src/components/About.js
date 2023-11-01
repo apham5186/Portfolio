@@ -15,9 +15,9 @@ const About = () => {
                     </div>     
             </div>
             <div className='aboutContentBottom'>
-                <img src = "Photo1.Jpeg"></img>
-                <img src='Photo2.jpg'></img>
-                <img src='Photo3.jpg'></img>
+                <img src = "Photo1.Jpeg" alt=''></img>
+                <img src='Photo2.jpg'alt=''></img>
+                <img src='Photo3.jpg'alt=''></img>
                 </div>
             </div>
         </section>
